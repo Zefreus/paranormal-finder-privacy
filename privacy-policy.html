@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — Paranormal Finder</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    h1 { color: #1a1a1a; font-size: 28px; margin-bottom: 8px; }
+    h2 { color: #333; font-size: 18px; margin-top: 32px; }
+    p, li { color: #444; }
+    ul { padding-left: 20px; }
+    .updated { color: #888; font-size: 14px; margin-bottom: 40px; }
+    .contact { background: #f5f5f5; padding: 16px; border-radius: 8px; margin-top: 32px; }
+  </style>
+</head>
+<body>
+
+<h1>Política de Privacidade</h1>
+<p class="updated">Paranormal Finder — Zefreus Labs<br>Última atualização: julho de 2026</p>
+
+<p>Esta política descreve como o aplicativo <strong>Paranormal Finder</strong>, desenvolvido por <strong>Zefreus Labs</strong>, coleta, usa e armazena informações no seu dispositivo.</p>
+
+<h2>1. Dados coletados</h2>
+<p>O Paranormal Finder acessa os seguintes recursos do dispositivo exclusivamente para fornecer as funcionalidades do app:</p>
+<ul>
+  <li><strong>Microfone:</strong> capturas de áudio são usadas em tempo real para análise de frequência (EVP) e Spirit Box. Gravações salvas pelo usuário ficam armazenadas localmente no dispositivo, na pasta <code>Android/data/com.zefreus.paranormal/files/EVP/</code>.</li>
+  <li><strong>Câmera:</strong> utilizada pelo módulo SLS para detecção de formas via ML Kit. Nenhuma imagem é salva automaticamente.</li>
+  <li><strong>Sensores de movimento e campo magnético:</strong> acelerômetro e magnetômetro são lidos em tempo real para os módulos EMF e Geofone. Os valores não são persistidos além da sessão ativa.</li>
+  <li><strong>Localização:</strong> utilizada opcionalmente para registrar o local de uma sessão de investigação. O dado é salvo apenas localmente no dispositivo.</li>
+</ul>
+
+<h2>2. Armazenamento</h2>
+<p>Todos os dados gerados pelo app — gravações de áudio, logs de sessão e relatórios exportados — são armazenados <strong>exclusivamente no dispositivo do usuário</strong>. O app não possui servidores próprios e não transmite nenhum dado para a internet.</p>
+
+<h2>3. Compartilhamento de dados</h2>
+<p>O Paranormal Finder <strong>não compartilha, vende ou transfere</strong> dados do usuário para terceiros. A única forma de compartilhamento é quando o próprio usuário usa a função "Exportar Relatório", que abre o compartilhamento nativo do Android para que o usuário escolha o destino.</p>
+
+<h2>4. Serviços de terceiros</h2>
+<p>O app utiliza as seguintes bibliotecas de terceiros, sujeitas às suas próprias políticas de privacidade:</p>
+<ul>
+  <li><strong>Google ML Kit (Pose Detection):</strong> processamento de imagem realizado inteiramente no dispositivo, sem envio de dados ao Google. <a href="https://developers.google.com/ml-kit/terms" target="_blank">Termos do ML Kit</a></li>
+</ul>
+
+<h2>5. Permissões utilizadas</h2>
+<ul>
+  <li><code>CAMERA</code> — detecção de formas humanoides (módulo SLS)</li>
+  <li><code>RECORD_AUDIO</code> — análise de áudio (módulos EVP e Spirit Box)</li>
+  <li><code>ACCESS_FINE_LOCATION</code> — registro opcional do local da sessão</li>
+  <li><code>HIGH_SAMPLING_RATE_SENSORS</code> — leitura de alta frequência do acelerômetro para detecção de microvibrações (módulo Geofone)</li>
+  <li><code>USB_HOST</code> — comunicação com câmera térmica externa via USB-C</li>
+</ul>
+<p>Nenhuma permissão é usada para fins publicitários ou de rastreamento.</p>
+
+<h2>6. Dados de menores</h2>
+<p>O Paranormal Finder não é direcionado a menores de 13 anos e não coleta intencionalmente dados de crianças.</p>
+
+<h2>7. Alterações nesta política</h2>
+<p>Eventuais atualizações serão publicadas nesta página. O uso continuado do app após alterações constitui aceite da política revisada.</p>
+
+<div class="contact">
+  <h2 style="margin-top:0">8. Contato</h2>
+  <p>Dúvidas sobre esta política de privacidade podem ser enviadas para:<br>
+  <strong>zefreus@gmail.com</strong></p>
+</div>
+
+</body>
+</html>
